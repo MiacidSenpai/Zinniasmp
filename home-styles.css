@@ -1,0 +1,91 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e16565;
+    font-family: serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; 
+    flex: 1;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 10px;
+    text-size-adjust: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 6px;
+    transition: color 0.15s;
+}
+
+nav ul li a:hover {
+    color: #987f7f;
+}
+
+#nav-links {
+    flex: 1;
+    text-align: right;
+    border: gray;
+    margin-right: 6px;
+}
+
+#logo {
+    flex: 0 0 auto;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #653030;
+}
+
+.home-header {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    color: #000000;
+    padding: 20px;
+    margin: auto;
+}
+
+#home-welcome h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#ZinniaSMP {
+    color: gold;
+}
+
+.about-section {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #000000;
+}
+
+#about-text {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
